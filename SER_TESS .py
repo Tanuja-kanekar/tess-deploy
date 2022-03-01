@@ -16,7 +16,6 @@ import matplotlib.pyplot as plt
 import glob
 import os
 import sys
-import IPython.display as ipd
 
 
 # In[2]:
