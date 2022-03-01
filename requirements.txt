@@ -1,6 +1,5 @@
 
 audioread==2.1.9
-cloudpickle==2.0.0
 conda==4.11.0
 conda-build==3.21.4
 conda-verify==3.4.2
