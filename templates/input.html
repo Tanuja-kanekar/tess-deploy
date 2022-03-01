@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Speech Emotion Classifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  
+  </head>
+
+  <body>
+    <header>
+      <h1>Speech Emotion Detection</h1>
+    </header>
+    <section id="try">
+      <div>
+        <p style="color:black;left:30;top:25;"> Try to send the speech file below and I will try to guess your emotion</p>
+      </div>
+      <div class="form-group">
+        <form action="/output" method="post" enctype="multipart/form-data">
+          <input type="file" name="file"/>
+          <input type="submit" value="Upload">
+        </form>
+      </div> 
+    </section>
+  </body>
+</html>

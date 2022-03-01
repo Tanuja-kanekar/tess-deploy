@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            success
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+       <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Emotion Detected</h1>
+        </header>
+                <p style="color:black;margin-left:30;margin-top:25;">Well from the speech I found the emotion to be</p>
+                <p style="color:black;margin-left:30;margin-top:25;">{{result}}</p>
+    </body>
+</html>

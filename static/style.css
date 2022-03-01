@@ -1,0 +1,19 @@
+body{
+    background-color: lightslategray;
+    margin:0;
+    padding:0;
+}
+header{
+     margin-top:10%;
+     margin-left:30%;
+}
+h1{
+    padding:0;
+    font-family:arial;
+    font-size: 2em;
+    color:black;
+}
+#try{
+    margin-top: 3%;
+    margin-left: 27%;
+}
